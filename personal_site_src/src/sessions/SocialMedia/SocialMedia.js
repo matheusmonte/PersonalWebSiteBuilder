@@ -5,16 +5,19 @@ import './SocialMedia.css';
 class SocialMedia extends React.Component{
     constructor(props){
         super(props);
+        
+    }
+
+    renderSocialLinks(){
+        
     }
     render(){
+        const listItems = this.props.content.map((element) => <Link source={element.link} text={element.title} />);
         return(
             <div className="socialmedia_container">
-                {this.props.content.forEach(element => {
-                    return(
-                        <Link source={element.link} text={element.title} />
-                    )    
-                })
-                }
+                <div className="socialmedia_link_spot">
+                    {listItems}
+               </div>
             </div>
         )
     }

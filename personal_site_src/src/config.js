@@ -12,6 +12,7 @@ export const PROFILE = {
 export const SOCIAL_MEDIA = [
     {title : "Github", link : "https://github.com/matheusmonte"},
     {title : "Linkedin", link : "https://linkedin.com/in/matheus-monte"},
-    {title : "Twitter", link : "https://twitter.com/mcsmonte"}
+    {title : "Twitter", link : "https://twitter.com/mcsmonte"},
+    {title : "Email", link : "mailto:matheusmonte@protonmail.com"}
 ]
 
