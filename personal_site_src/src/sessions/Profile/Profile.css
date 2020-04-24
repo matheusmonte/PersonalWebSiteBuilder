@@ -6,29 +6,42 @@
 .profile_image_container{
     width: 50%;
     height: 50%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .profile_image{
-    height: 100%;
-    width: 60%;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 100%;
 }
 
 .profile_text_container{
-    padding-top: 20%;
+    padding-top: 10%;
     padding-right: 10%;
     width: 50%;
     height: 50%;
+}
+
+.profile_text_sub_introduce_container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    color: grey;
+    font-family: "Roboto Mono", monospace;
 }
 
 .profile_text_introduce{
     color: grey;
     text-overflow: clip;
     text-align: center;
+    font-size: 4rem;
+    font-family: "Roboto Mono", monospace;
 }
 
 .profile_text_bio{
     color: grey;
     text-overflow: clip;
     text-align: justify;
+    font-family: "Roboto Mono", monospace;
 }
