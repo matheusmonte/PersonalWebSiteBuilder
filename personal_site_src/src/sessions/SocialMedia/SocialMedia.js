@@ -8,9 +8,6 @@ class SocialMedia extends React.Component{
         
     }
 
-    renderSocialLinks(){
-        
-    }
     render(){
         const listItems = this.props.content.map((element) => <Link source={element.link} text={element.title} />);
         return(
