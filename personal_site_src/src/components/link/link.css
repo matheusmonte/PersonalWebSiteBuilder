@@ -1,29 +1,26 @@
-a{
-    text-decoration: none;
+.red{
+  color: #6c3f53;
+  text-decoration: none;
+  font-weight: bold;
 }
 
- /* unvisited link */
- a:link {
-    color: red;
-  }
-  
-  /* visited link */
- a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
+.blue{
+  color: #2e5871;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gray{
+  color: #424a4d;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.orange{
+  color: #bb6d3c;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 
-  .border{
-      height: 2rem;
-      width: 5rem;
-      border: solid;
-      border-radius: 10%;
-      border-color: red;
-      border-width: 0.1rem;
-  }
   

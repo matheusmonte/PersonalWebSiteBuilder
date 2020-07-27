@@ -18,10 +18,12 @@
 
 @media only screen and (max-width: 600px) {
     .socialmedia_container .socialmedia_link_spot{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
+        width: 90%;
+        display: grid;
+        grid-template-columns: auto auto auto;
         align-items: center;
-        margin-left: 0;
+        margin-left: 5%;
+        height: 5rem;
+        padding-top: 5%;
     }
 }
