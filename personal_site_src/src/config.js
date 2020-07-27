@@ -2,8 +2,8 @@ export const PROFILE = {
     image : "profile.jpg",
     text : {
         introduce : "HI, I'm Matheus",
-        subintroduce : "Software Engineer based on Dublin",
-        bio : "I'm current Software Development Engineer to Amazon Web Services, " +
+        subintroduce : "Software Engineer based in Dublin",
+        bio : "I'm current Software Development Engineer at Amazon Web Services, " +
         "I love to talk about JavaScript stuff, but I code on Java, C# and Python too. Open source lover, I contributed " +
         "to some interesting projects, check on my github for more details. Seahawks (NFL) fan, Flamengo (Soccer/football) supporter and GSW (NBA) nation."
     }
