@@ -2,12 +2,14 @@ import React from 'react';
 import './link.css';
 
 class Link extends React.Component{
+
+    colors = ["red","blue","gray", "orange"];
+
     constructor(props){
         super(props);
         this.state = {
-            color : true
-        }
-        this.colors = ["red","blue","gray", "orange"];
+            color : this.getColor()
+        }   
     }
 
     componentDidMount() {
@@ -16,12 +18,14 @@ class Link extends React.Component{
 
     changeColor(){
         this.setState({
-            color : this.colors[Math.floor((Math.random() * 4))]
+            color : this.getColor()
         });
     }
 
+    getColor(){
+        return this.colors[Math.floor((Math.random() * 4))];
+    }
 
-    
     render(){
         return(
             <a  className={this.state.color} href={this.props.source}> {this.props.text}</a>
