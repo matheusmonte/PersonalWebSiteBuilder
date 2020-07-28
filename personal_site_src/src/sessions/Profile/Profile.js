@@ -9,7 +9,7 @@ class Profile extends React.Component{
         return(
             <div className="profile_container">
                 <div className="profile_image_container">
-                    <Image style="profile_image" src={this.props.content.image} alt="Avatar"/>
+                    <Image style={{cssClass : "profile_image"}} src={this.props.content.image} alt="Avatar"/>
                 </div>
                 <div className="profile_text_container">
                     <p className="profile_text_introduce">{this.props.content.text.introduce}</p>

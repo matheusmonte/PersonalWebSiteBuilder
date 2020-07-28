@@ -3,11 +3,6 @@ import Link from "../../components/link/link";
 import './SocialMedia.css';
 
 class SocialMedia extends React.Component{
-    constructor(props){
-        super(props);
-        
-    }
-
     render(){
         const listItems = this.props.content.map((element) => <Link source={element.link} text={element.title} />);
         return(
