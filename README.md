@@ -9,38 +9,39 @@ Personal website template to modify and deploy using github pages, simple way to
 - git client installed
 
 ## first steps
-- Fork this repository in a repository with this name: 
+### Fork this repository or use the option "Use this template"  to create repository with this name: 
 
 `` <your-github-user>.github.io ``
 
-- clone your new repository locally 
+### Clone your new repository locally 
 
 `` git clone <your repository url> ``
 
-- enter in your repo folder
+### Enter in your repo folder
 
 `` cd <your repo name> ``
 
-- run this command
-
-`` rm -rf asset-* logo* service-worker.js robots.txt static/ favicon.ico index.html precache-manifest.* manifest.json `` 
-
-if this command return some error, it is not a problem, just make sure you just have 3 items on your root folder 
+Make sure you just have 3 items on your root folder 
  - LICENSE
  - README.md
  - personal_site_src folder
+ 
+ if your local repository contains more the above listed files, run this command:
+
+`` rm -rf asset-* logo* service-worker.js robots.txt static/ favicon.ico index.html precache-manifest.* manifest.json `` 
+
 
 ## Modify 
 
-- Keep current site template, just change content 
+### To keep current site template, just change content 
 
 Enter in folder called "personal_site_src", this is a react app, inside src you will find a file called "config.js", on this you will find a bunch of variables that you can change the value to change site text values / content.  
 
-- Change sessions organization
+### Change sessions organization
 
 Modify App.js file, this is a all session container with flex layout and flex-direction: collum , you can create new sessions based on companents or re-order sessions order based on compenents.
 
-- Change sessions
+### Change sessions
 
 Go to folder sessions and open a target session and change code
 
@@ -64,10 +65,13 @@ and push to master branch
 
 after this, just access this url:
 
-<your githubuser>.github.io
+``<your githubuser>.github.io``
 
 and voial`a, enjoy your new personal website
 
+## Deploy on Netlify 
+
+[Comming soon](https://github.com/matheusmonte/PersonalWebSiteBuilder/issues/4)
 
 ## Author
 
