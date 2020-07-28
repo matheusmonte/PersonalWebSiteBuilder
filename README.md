@@ -44,11 +44,15 @@ Modify App.js file, this is a all session container with flex layout and flex-di
 
 Go to folder sessions and open a target session and change code
 
-## Deploy
+## Deploy on Github.io
 
 in personal_site_src run:
 
 `` yarn build ``
+
+yarn build will create an folder called build with all prod files, run this command now
+
+`` mv build/* ../ ``
 
 and go back to repository root folder and commit all changes
 
