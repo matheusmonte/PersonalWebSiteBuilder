@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build-gh-pages": "rm -r ../asset-* ../logo* ../service-worker.js ../robots.txt ../static/ ../favicon.ico ../index.html ../precache-manifest.* ../manifest.json &&  react-scripts build && mv build/* ../"  
   },
   "eslintConfig": {
     "extends": "react-app"
